@@ -9,8 +9,69 @@ Currently, two official plugins are available:
 
 ## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+# Personal Portfolio
 
-## Expanding the ESLint configuration
+A simple, responsive personal portfolio built with React and Vite. Replace placeholders below with your own name, bio, and contact details.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## About
+
+This repository contains a single-page portfolio showcasing projects, skills, and contact information. It's set up with Vite for fast development and an opinionated ESLint configuration.
+
+## Features
+
+- Clean, responsive layout
+- Sections for Hero, About, Skills, Projects, and Contact
+- Fast dev server with HMR via Vite
+
+## Tech Stack
+
+- React
+- Vite
+- CSS (plain or your preferred preprocessor)
+
+## Run locally
+
+1. Install dependencies:
+
+```
+npm install
+```
+
+2. Start development server:
+
+```
+npm run dev
+```
+
+3. Open the app at the address shown in the terminal (usually `http://localhost:5173`).
+
+## Build & Preview
+
+Build the production bundle:
+
+```
+npm run build
+```
+
+Preview the production build locally:
+
+```
+npm run preview
+```
+
+## Deployment
+
+This project can be deployed on static hosts such as Netlify, Vercel, or GitHub Pages. Build the site (`npm run build`) and follow your chosen platform's deployment steps.
+
+## Customize
+
+- Update the components in `src/components` to change content and sections.
+- Replace images in `src/assets` and adjust styling in `src/index.css` / `src/App.css`.
+
+## Contact
+
+Replace with your preferred contact method or social links.
+
+---
+
+If you'd like, I can personalize this README with your name, a short bio, and links to your projects — tell me what to include.
